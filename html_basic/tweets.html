@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My First HTML Page</title>
-    </head>
-    <body>
-        <a href="index.html"> Back to Home</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweets Page</title>
+</head>
+<body>
 
-        <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr">We're rolling out a new way to embed Tweets on your site:
-                <a href="https://t.co/rwV51lbnjW">https://t.co/rwV51lbnjW</a><br><br>It includes better support for dark mode, language settings, and improved rendering on mobile and desktop.</p>&mdash; Twitter Dev (@TwitterDev)
-                <a href="https://twitter.com/TwitterDev/status/1228393702244134912">February 14, 2020</a>    
-        </blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </body>
+  <!-- Header with navigation -->
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Main article content (embedded tweet) -->
+    <article>
+      <h2>Check out this Tweet!</h2>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">We’re rolling out a new way to embed Tweets on your site: <a href="https://t.co/RwV5lLbnjW">https://t.co/RwV5lLbnjW</a><br><br>It includes better support for dark mode, language settings, and improved rendering on mobile and desktop.</p>&mdash; Twitter Dev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1228393702244134912">February 14, 2020</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+
+    <!-- Sidebar content -->
+    <aside>
+      <p>Just reading for now “placeholder to add comment thread later”.</p>
+    </aside>
+  </main>
+
+  <!-- Footer with your name and GitHub link -->
+  <footer>
+    <p>Made by Faith <a href="https://github.com/Faith043888" target="_blank">here</a>.</p>
+  </footer>
+
+</body>
 </html>
